@@ -9,7 +9,6 @@
 
 
 <style>
-    
 .heatMap {
     width: 100%;
     text-align: center;
@@ -26,7 +25,6 @@
     color: white;
 }
 .heatMap tr:nth-child(1) { background: white; }
-
 </style>
 
 
