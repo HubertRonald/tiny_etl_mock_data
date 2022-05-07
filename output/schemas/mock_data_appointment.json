@@ -1,0 +1,6 @@
+{
+    "id_ein": "STRING",
+    "appointment_code": "STRING",
+    "appointment_description": "STRING",
+    "appointment_date": "DATETIME"
+}

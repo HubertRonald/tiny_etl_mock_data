@@ -1,0 +1,8 @@
+{
+    "id_ein": "STRING",
+    "first_name": "STRING",
+    "last_name": "STRING",
+    "email": "STRING",
+    "gender": "STRING",
+    "phone": "STRING"
+}
