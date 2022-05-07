@@ -8,25 +8,6 @@
 </div>
 
 
-<style>
-.heatMap {
-    width: 100%;
-    text-align: center;
-    overflow-x: scroll;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-
-}
-.heatMap th {
-    background: #4c4c4c;
-    word-wrap: break-word;
-    text-align: center;
-    color: white;
-}
-.heatMap tr:nth-child(1) { background: white; }
-</style>
-
 
 ## Table of Contents
 * [About Moock Data](#AboutMoockData)
@@ -52,6 +33,7 @@ CSV files on `input` (appointment and users) folder were created with [mockaroo]
 
 </div>
 
+<br>
 
 <div class="heatMap">
 
