@@ -9,6 +9,7 @@
 
 
 <style>
+    
 .heatMap {
     width: 100%;
     text-align: center;
