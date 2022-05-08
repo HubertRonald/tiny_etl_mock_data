@@ -42,6 +42,12 @@ def tiny_etl():
         , size=len(df_appointments)
         , replace=True
     )
+
+    """
+    Bigquery data type Datetime
+    https://cloud.google.com/bigquery/docs/reference/standard-sql/data-types#datetime_type
+    """
+    df_appointments['appointment_date']+='.00'
     # print(df_appointments['id_ein'])
     return df_users, df_appointments, files_input
 
