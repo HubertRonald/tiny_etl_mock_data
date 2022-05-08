@@ -65,7 +65,7 @@ def create_schema(columns, path):
         data.append({
             "description": column.replace('_',' ').title(),
             "name": column,
-            "type": 'DATETIME' if 'date' in column else 'STRING',
+            "type": 'TIMESTAMP' if 'date' in column else 'STRING',
             "mode": "REQUIRED"
         })
 
