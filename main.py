@@ -50,7 +50,7 @@ def save_df(df, path):
     '''
     save dataframe to csv format
     '''
-    df.to_csv(f'output/{path}', index=False, encoding='utf-8')
+    df.to_csv(f'output/{path}', sep=';', index=False, encoding='utf-8')
     pass
 
 
