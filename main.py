@@ -45,14 +45,17 @@ def tiny_etl():
 
     """
     Bigquery data type Datetime
+    Can change format time by in Bigquery is
+    YYYY-MM-DD HH:MM:SS
     https://cloud.google.com/bigquery/docs/reference/standard-sql/data-types#datetime_type
     https://stackoverflow.com/questions/59548775/bigquery-fails-on-parsing-dates-in-m-d-yyyy-format-from-csv-file
-    """
+    
     df_appointments['appointment_date'] = pd.to_datetime(
         df_appointments['appointment_date']
         , format='%Y-%m-%d %H:%M:%S'
     ) \
     .dt.strftime('%d-%m-%Y %H:%M:%S')
+    """
 
     # print(df_appointments['id_ein'])
     return df_users, df_appointments, files_input
