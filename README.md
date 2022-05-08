@@ -71,24 +71,74 @@ In the folder `output/schemas` you going to see next json files:
 
 ```json
 // mock_data_appointment.json
-{
-    "id_ein": "STRING",
-    "appointment_code": "STRING",
-    "appointment_description": "STRING",
-    "appointment_date": "DATETIME"
-}
+[
+    {
+        "description": "Id Ein",
+        "name": "id_ein",
+        "type": "STRING",
+        "mode": "REQUIRED"
+    },
+    {
+        "description": "Appointment Code",
+        "name": "appointment_code",
+        "type": "STRING",
+        "mode": "REQUIRED"
+    },
+    {
+        "description": "Appointment Description",
+        "name": "appointment_description",
+        "type": "STRING",
+        "mode": "REQUIRED"
+    },
+    {
+        "description": "Appointment Date",
+        "name": "appointment_date",
+        "type": "DATETIME",
+        "mode": "REQUIRED"
+    }
+]
 ```
 
 ```json
 // mock_data_users.json
-{
-    "id_ein": "STRING",
-    "first_name": "STRING",
-    "last_name": "STRING",
-    "email": "STRING",
-    "gender": "STRING",
-    "phone": "STRING"
-}
+[
+    {
+        "description": "Id Ein",
+        "name": "id_ein",
+        "type": "STRING",
+        "mode": "REQUIRED"
+    },
+    {
+        "description": "First Name",
+        "name": "first_name",
+        "type": "STRING",
+        "mode": "REQUIRED"
+    },
+    {
+        "description": "Last Name",
+        "name": "last_name",
+        "type": "STRING",
+        "mode": "REQUIRED"
+    },
+    {
+        "description": "Email",
+        "name": "email",
+        "type": "STRING",
+        "mode": "REQUIRED"
+    },
+    {
+        "description": "Gender",
+        "name": "gender",
+        "type": "STRING",
+        "mode": "REQUIRED"
+    },
+    {
+        "description": "Phone",
+        "name": "phone",
+        "type": "STRING",
+        "mode": "REQUIRED"
+    }
+]
 ```
 
 They're schemas for the CSV files in the folder `output`

@@ -57,11 +57,17 @@ def save_df(df, path):
 def create_schema(columns, path):
     '''
     save schema like json
+    JSON Schema Bigquery
+    https://cloud.google.com/bigquery/docs/schemas?hl=es_419#specifying_a_json_schema_file
     '''
-    data = {
-        column: 'DATETIME' if 'date' in column else 'STRING' 
-        for column in columns
-    }
+    data = []
+    for column in columns:
+        data.append({
+            "description": column.replace('_',' ').title(),
+            "name": column,
+            "type": 'DATETIME' if 'date' in column else 'STRING',
+            "mode": "REQUIRED"
+        })
 
     path = path.lower().replace('.csv', '.json')
 

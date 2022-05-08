@@ -1,8 +1,38 @@
-{
-    "id_ein": "STRING",
-    "first_name": "STRING",
-    "last_name": "STRING",
-    "email": "STRING",
-    "gender": "STRING",
-    "phone": "STRING"
-}
+[
+    {
+        "description": "Id Ein",
+        "name": "id_ein",
+        "type": "STRING",
+        "mode": "REQUIRED"
+    },
+    {
+        "description": "First Name",
+        "name": "first_name",
+        "type": "STRING",
+        "mode": "REQUIRED"
+    },
+    {
+        "description": "Last Name",
+        "name": "last_name",
+        "type": "STRING",
+        "mode": "REQUIRED"
+    },
+    {
+        "description": "Email",
+        "name": "email",
+        "type": "STRING",
+        "mode": "REQUIRED"
+    },
+    {
+        "description": "Gender",
+        "name": "gender",
+        "type": "STRING",
+        "mode": "REQUIRED"
+    },
+    {
+        "description": "Phone",
+        "name": "phone",
+        "type": "STRING",
+        "mode": "REQUIRED"
+    }
+]
