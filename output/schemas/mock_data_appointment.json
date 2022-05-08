@@ -20,7 +20,7 @@
     {
         "description": "Appointment Date",
         "name": "appointment_date",
-        "type": "TIMESTAMP",
+        "type": "DATETIME",
         "mode": "REQUIRED"
     }
 ]
